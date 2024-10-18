@@ -1,3 +1,2 @@
 #!/bin/bash 
-echo "Local Variables:"
-set | grep -v '^declare -f' | grep -v '^$' 
+set 
